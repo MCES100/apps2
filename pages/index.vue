@@ -1,8 +1,11 @@
 <template>
     <div>index page</div>
     <button class="btn">
-      <span class="btn-text">Click me</span>
-      <span class="subtitle">Subtitle here</span>
+      <span class="btn-content">
+        <span class="btn-text">Click me</span>
+        <span class="subtitle">Subtitle here</span>
+        <span class="arrow-icon">&#10148;</span>
+      </span>
     </button>
 </template>
 <style>
@@ -33,6 +36,11 @@ body {
 .btn {
   @apply relative inline-block px-6 py-4 text-lg font-semibold rounded-full bg-opacity-25 bg-white text-white hover:bg-opacity-50 hover:bg-white border border-white border-opacity-25 transition duration-300 ease-in-out;
   backdrop-filter: blur(10px);
+  overflow: hidden; /* Ensure overflow is hidden to clip arrow animation */
+}
+
+.btn-content {
+  @apply relative;
 }
 
 .btn-text {
@@ -41,6 +49,14 @@ body {
 
 .subtitle {
   @apply text-sm text-gray-300; /* Adjust the font size and color as needed */
+}
+
+.arrow-icon {
+  @apply absolute bottom-0 right-0 transform translate-x-full translate-y-full text-lg opacity-0 transition-transform duration-300 ease-in-out;
+}
+
+.btn:hover .arrow-icon {
+  @apply opacity-100 transform translate-x-0 translate-y-0;
 }
 /*
 
