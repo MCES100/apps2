@@ -45,7 +45,7 @@ export default {
 <style scoped>
 /* Add your styling here */
 nav {
-  background-color: #333;
+  background-color: #000000;
   padding: 1rem;
   border-radius: 10px; /* Add rounded corners */
 }
@@ -76,14 +76,23 @@ nav {
 
 .bar1-open {
   transform: rotate(-45deg) translate(-5px, 6px);
+  margin: 5px 0;
+  width: 25px;
+  height: 3px;
 }
 
 .bar2-open {
   opacity: 0;
+  margin: 5px 0;
+  width: 25px;
+  height: 3px;
 }
 
 .bar3-open {
   transform: rotate(45deg) translate(-5px, -6px);
+  margin: 5px 0;
+  width: 25px;
+  height: 3px;
 }
 
 ul {
@@ -103,6 +112,11 @@ a {
   color: white;
   font-weight: bold;
 }
+a:hover {
+  text-decoration: none;
+  color: rgb(1, 2, 58);
+  font-weight: bold;
+}
 
 /* Media query for mobile */
 @media only screen and (max-width: 600px) {
@@ -117,7 +131,7 @@ a {
     top: 60px;
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #000000;
     z-index: 1;
   }
 
