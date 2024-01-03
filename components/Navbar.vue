@@ -10,7 +10,6 @@
         <div :class="{ 'bar': true, 'bar1-open': isMenuOpen }"></div>
         <div :class="{ 'bar': true, 'bar2-open': isMenuOpen }"></div>
         <div :class="{ 'bar': true, 'bar3-open': isMenuOpen }"></div>
-        <div :class="{ 'bar': true, 'bar4-open': isMenuOpen }"></div>
       </div>
       <ul :class="{ 'show-menu': isMenuOpen }">
         <li>
@@ -99,12 +98,6 @@ nav {
   height: 3px;
 }
 
-.bar4-open {
-  transform: rotate(45deg) translate(-5px, -6px);
-  margin: 5px 0;
-  width: 25px;
-  height: 3px;
-}
 
 ul {
   list-style: none;
