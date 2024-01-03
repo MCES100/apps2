@@ -4,7 +4,7 @@
   <nav>
     <div class="navbar-container">
       <div class="logo">
-        <nuxt-link to="/">MCES10 Software</nuxt-link>
+        <img src="/img/Logo.png" alt="MCES10 Software Logo" />
       </div>
       <div class="menu" @click="toggleMenu">
         <div :class="{ 'bar': true, 'bar1-open': isMenuOpen }"></div>
