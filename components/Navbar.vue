@@ -4,7 +4,7 @@
   <nav>
     <div class="navbar-container">
       <div class="logo">
-        <img src="/img/Logo.png" alt="MCES10 Software Logo" />
+        <img src="/img/Logo.png" alt="MCES10 Software Logo" width="360px" height="74 px" />
       </div>
       <div class="menu" @click="toggleMenu">
         <div :class="{ 'bar': true, 'bar1-open': isMenuOpen }"></div>

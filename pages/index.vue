@@ -1,6 +1,6 @@
 <template>
     <div>index page</div>
-    
+    <base-button type="default">Default</base-button>
 </template>
 <style>
 
