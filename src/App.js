@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
+      className={`flex min-h-screen flex-col items-center justify-between p-24 `}
     >
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         
@@ -17,15 +17,7 @@ function App() {
       </div>
 
       <div className="relative flex place-items-center before:absolute"> 
-      <Image
-          
-          src="/Logo.png"
-          alt="MCES10 Software Logo"
-          width={360}
-          height={74}
-          priority
-        />
-      </div>
+      
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
