@@ -10,16 +10,20 @@
         <div :class="{ 'bar': true, 'bar1-open': isMenuOpen }"></div>
         <div :class="{ 'bar': true, 'bar2-open': isMenuOpen }"></div>
         <div :class="{ 'bar': true, 'bar3-open': isMenuOpen }"></div>
+        <div :class="{ 'bar': true, 'bar4-open': isMenuOpen }"></div>
       </div>
       <ul :class="{ 'show-menu': isMenuOpen }">
         <li>
           <nuxt-link to="/">Home</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/about">About</nuxt-link>
+          <nuxt-link to="./apps">Apps</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/contact">Contact</nuxt-link>
+          <nuxt-link to="./login">Account</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="./signup">About</nuxt-link>
         </li>
       </ul>
     </div>
@@ -95,6 +99,13 @@ nav {
   height: 3px;
 }
 
+.bar4-open {
+  transform: rotate(45deg) translate(-5px, -6px);
+  margin: 5px 0;
+  width: 25px;
+  height: 3px;
+}
+
 ul {
   list-style: none;
   display: flex;
@@ -114,8 +125,12 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: rgb(1, 2, 58);
+  color: rgb(255, 255, 255);
   font-weight: bold;
+  background-color: blue;
+  width: 15px;
+  height: 5px;
+  border-radius: 5px;
 }
 
 /* Media query for mobile */

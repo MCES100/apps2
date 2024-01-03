@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar />
-    <p>Hello World</p>
+    
   </div>
 </template>
 <script>
