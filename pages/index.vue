@@ -3,23 +3,86 @@
     <center>
       <magic>
     <h1 class="font-extrabold" style="padding-bottom: 2rem;">MCES10</h1>
-    <h1 class="font-extrabold" style="padding-bottom: 4rem;">Software</h1>
+    <h1 class="font-extrabold" style="padding-bottom: 2rem;">Software</h1>
   </magic>
   
-    <nicepaddingsides>
-    <table>
-      <tr>
-        <td><center><h2>Welcome to World of Software. Get ready for our app releases and MCES10 Software 24".</h2></center></td>
-        <td><UButton to="./signup" target="_blank" size="lg" color="blue">Sign Up</UButton></td>
-      </tr>
-    </table>
-  </nicepaddingsides>
+  <div class="flex min-h-screen flex-col items-center justify-between p-24">
+   
+
+
+    <div class="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
+      <a
+        href="#"
+        class="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h2 class="mb-3 text-2xl font-semibold">
+          RickyAI  
+          <span class="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+            -&gt;
+          </span>
+        </h2>
+        <p class="m-0 max-w-[30ch] text-sm opacity-50">
+          A step into generative AI coming soon..
+        </p>
+      </a>
+
+      <a
+        href="#"
+        class="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h2 class="mb-3 text-2xl font-semibold">
+          Web Development Tutorials  
+          <span class="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+            -&gt;
+          </span>
+        </h2>
+        <p class="m-0 max-w-[30ch] text-sm opacity-50">
+          Learn how to code websites and deploy them to the web!
+        </p>
+      </a>
+
+      <a
+        href="#"
+        class="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h2 class="mb-3 text-2xl font-semibold">
+          To-List  
+          <span class="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+            -&gt;
+          </span>
+        </h2>
+        <p class="m-0 max-w-[30ch] text-sm opacity-50">
+          The ultimate To-Do List app that has categorised to-dos and more soon.
+        </p>
+      </a>
+
+      <a
+        href="#"
+        class="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h2 class="mb-3 text-2xl font-semibold">
+          MCES10 Software 24"
+          <span class="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+            -&gt;
+          </span>
+        </h2>
+        <p class="m-0 max-w-[30ch] text-sm opacity-50">
+          An event coming soon which will show upcoming features.
+        </p>
+      </a>
+    </div>
+  </div>
+
     
-    <h2>Try our Beta Products</h2>
-    <UButton to="#" target="_blank" size="xl" color="blue" variant="ghost" >Ricky AI</UButton>
-    <UButton to="#" target="_blank" size="xl" color="blue" variant="ghost" >Web Dev Tut</UButton>
-    <UButton to="#" target="_blank"  size="xl" color="blue" variant="ghost">To-list</UButton>
-    <UButton to="#" target="_blank"  size="xl" color="blue" variant="ghost">Others</UButton>
+   
   </center>
   
 </template>
