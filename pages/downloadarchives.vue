@@ -4,19 +4,19 @@ const links = [{
   avatar: {
     src: 'https://mces10-software.github.io/apps/ImageSources/logonbg.png'
   },
-  badge: 9
+  badge: 10
 }, 
 {
   label: 'To-List Public Beta 1',
-  icon: 'i-heroicons-home',
+  icon: 'i-heroicons-command-line',
   to: '/getting-started/installation'
 },{
   label: 'W.D.T Public Beta 6',
-  icon: 'i-heroicons-home',
+  icon: 'i-heroicons-command-line',
   to: '/getting-started/installation'
 }, {
   label: 'W.D.T Public Beta 5',
-  icon: 'i-heroicons-chart-bar',
+  icon: 'i-heroicons-command-line',
   to: '/navigation/vertical-navigation'
 }, {
   label: 'W.D.T Public Beta 4',
