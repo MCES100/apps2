@@ -21,6 +21,7 @@
     <UButton to="#" target="_blank"  size="xl" color="blue" variant="ghost">To-list</UButton>
     <UButton to="#" target="_blank"  size="xl" color="blue" variant="ghost">Others</UButton>
   </center>
+  
 </template>
 <style>
 
