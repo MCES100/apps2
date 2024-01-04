@@ -5,8 +5,8 @@
     <nicepaddingsides>
     <table>
       <tr>
-        <td><h2>Welcome to World of Software. Get ready for our app releases and MCES10 Software 24".</h2></td>
-        <td><UButton to="#" target="_blank" size="xl" color="blue">Sign Up</UButton></td>
+        <td><center><h2>Welcome to World of Software. Get ready for our app releases and MCES10 Software 24".</h2></center></td>
+        <td><UButton to="#" target="_blank" size="lg" color="blue">Sign Up</UButton></td>
       </tr>
     </table>
   </nicepaddingsides>
