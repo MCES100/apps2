@@ -19,7 +19,7 @@
           <nuxt-link to="./apps">Apps</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="./login">Account</nuxt-link>
+          <nuxt-link to="./signin">Account</nuxt-link>
         </li>
         <li>
           <nuxt-link to="./signup">About</nuxt-link>

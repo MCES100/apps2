@@ -19,6 +19,8 @@
     "wrangler": "^3.22.2"
   },
   "dependencies": {
-    "@nuxt/ui": "^2.11.1"
+    "@nuxt/ui": "^2.11.1",
+    "firebase": "^10.7.1",
+    "firebase-auth": "^0.1.2"
   }
 }
