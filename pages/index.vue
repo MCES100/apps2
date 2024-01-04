@@ -1,7 +1,8 @@
 <template>
     <div></div>
     <center>
-    <h1 class="font-extrabold">MCES10 Software</h1>
+    <h1 class="font-extrabold">MCES10</h1>
+    <h1 class="font-extrabold">Software</h1>
     <nicepaddingsides>
     <table>
       <tr>
