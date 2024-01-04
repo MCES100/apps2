@@ -1,8 +1,11 @@
 <template>
     <div></div>
     <center>
-    <h1 class="font-extrabold">MCES10</h1>
-    <h1 class="font-extrabold">Software</h1>
+      <magic>
+    <h1 class="font-extrabold" style="padding-bottom: 2rem;">MCES10</h1>
+    <h1 class="font-extrabold" style="padding-bottom: 4rem;">Software</h1>
+  </magic>
+  
     <nicepaddingsides>
     <table>
       <tr>
@@ -46,8 +49,8 @@ body {
 }
 
 h1 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  
   font-size: 3.75rem;
 line-height: 1rem;
 }
@@ -55,6 +58,12 @@ line-height: 1rem;
   padding-left: 5rem;
   padding-right: 5rem;
 }
-
+.magic {
+  
+  padding-bottom: 4rem;
+}
+.magic2 {
+  padding-bottom: 2rem;
+}
 
     </style>
