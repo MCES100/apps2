@@ -4,6 +4,6 @@ export default defineNuxtConfig({
     preset: 'cloudflare-pages'
   },
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss']
+  modules: ['@nuxt/ui']
 })
 

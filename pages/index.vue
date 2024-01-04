@@ -2,6 +2,8 @@
     <div></div>
     <center>
     <h1 class="font-extrabold">MCES10 Software</h1>
+    
+    <h2>Welcome to World of Software. Get ready for our app releases and MCES10 Software 24".</h2>
   </center>
 </template>
 <style>
@@ -32,6 +34,7 @@ body {
 
 h1 {
   padding-top: 5rem;
+  padding-bottom: 5rem;
   font-size: 3.75rem;
 line-height: 1rem;
 }

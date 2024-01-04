@@ -17,5 +17,8 @@
     "vue": "^3.4.3",
     "vue-router": "^4.2.5",
     "wrangler": "^3.22.2"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.11.1"
   }
 }
