@@ -41,9 +41,19 @@ export default {
     toggleMenu() {
       this.isMenuOpen = !this.isMenuOpen;
     },
+    closeMenu() {
+      this.isMenuOpen = false;
+    },
+  },
+  watch: {
+    // Watch for route changes and close the menu
+    $route(to, from) {
+      this.closeMenu();
+    },
   },
 };
 </script>
+
 
 <style scoped>
 /* Add your styling here */

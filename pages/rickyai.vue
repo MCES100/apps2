@@ -1,19 +1,18 @@
 <template>
 
-    <h2 style="display: flex; align-items: center; justify-content: center; font-size: 50px;"> Web Development Tutorials</h2>
+    <h2 style="display: flex; align-items: center; justify-content: center; font-size: 50px;"> RickyAI</h2>
     
     <table style="display: flex; align-items: center; justify-content: center; ">
         <tr>
             <td>
-                <img src="/img/WDT.png" alt="MCES10 Software Logo" width="512" height="512" />
+                <img src="/img/ricky.png" alt="MCES10 Software Logo" width="512" height="512" />
             </td>  
             <td>
-                <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">App Contents</h2>
+                <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Features</h2>
                 <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400" style="padding: 2rem">
-                    <li>HTML, CSS and JavaScript (HTML, CSS Free, JS in Pro) </li>
-                    <li>Nuxt.js, Next.js and React courses are in the works (Pro Only) </li>
-                    <li>Firebase Auth Integration  (Pro Only).</li>
-                    <li>Code Editior Side by side with the course if needed on iPadOS</li>
+                    <li>Generative AI</li>
+                    <li>Powered By A Mistral GGUF model</li>
+                    <li>More Info - MCES10 Software 24"</li>
                 </ul>
             </td>
          
@@ -23,11 +22,11 @@
     <center>
         <h2>
             <p>
-                Web Development Tutorial is great app to learn the basics of Web Development and as soon as you are ready to learn to code Nuxt.js and more you can buy the upcoming pro version.
+               RickyAI will be generative AI put into products like Web Development Tutorials (W.D.T) that will help you while coding along with the knowledge on all courses within the app!
             </p>
-            <a class="gradient-button" @mouseover="toggleHover" @mouseout="toggleHover">
-                Try Now
-            </a>
+            <!--<a class="gradient-button" @mouseover="toggleHover" @mouseout="toggleHover"> -->
+            <!--    Try Now -->
+            <!--</a> -->
         </h2>
     </center>
 
