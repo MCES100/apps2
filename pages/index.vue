@@ -6,7 +6,7 @@
     <h1 class="font-extrabold" style="padding-bottom: 2rem;">Software</h1>
   </magic>
   
-  <div class="flex min-h-screen flex-col items-center justify-between p-24">
+  <div class="flex min-h-screen flex-col items-center justify-between p-24" style="color:white">
    
 
 
