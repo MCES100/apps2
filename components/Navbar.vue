@@ -125,14 +125,16 @@ a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  width: 5rem;
+  height: 5rem;
 }
 a:hover {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-weight: bold;
   background-color: blue;
-  width: 15px;
-  height: 5px;
+  width: 5rem;
+  height: 5rem;
   border-radius: 5px;
 }
 
