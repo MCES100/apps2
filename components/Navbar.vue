@@ -58,7 +58,7 @@ export default {
 <style scoped>
 /* Add your styling here */
 nav {
-  background-color: rgba(255, 255, 255, 0.23);
+  background-color: rgba(255, 255, 255, 0.64);
   border-radius: 16px;
   box-shadow: 0 14px 50px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(20px);
