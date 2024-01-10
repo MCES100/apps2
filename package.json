@@ -21,6 +21,7 @@
   "dependencies": {
     "@nuxt/ui": "^2.11.1",
     "firebase": "^10.7.1",
-    "firebase-auth": "^0.1.2"
+    "firebase-auth": "^0.1.2",
+    "package.json": "^0.0.0"
   }
 }
