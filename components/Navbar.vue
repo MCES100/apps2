@@ -58,10 +58,15 @@ export default {
 <style scoped>
 /* Add your styling here */
 nav {
-  background-color: #000000;
+  background-color: rgba(255, 255, 255, 0.23);
+  border-radius: 16px;
+  box-shadow: 0 14px 50px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   padding: 1rem;
   border-radius: 10px; /* Add rounded corners */
 }
+
 
 .navbar-container {
   display: flex;
@@ -130,9 +135,13 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  
   font-weight: bold;
-  background-color: blue;
+  background-color: rgba(255, 255, 255, 0.64);
+  border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
   width: 5rem;
   height: 5rem;
   border-radius: 5px;

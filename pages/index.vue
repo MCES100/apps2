@@ -1,5 +1,5 @@
 <template>
-    <div></div>
+    
     <center>
       <magic>
     <h1 class="font-extrabold text-white" style="padding-bottom: 2rem;">MCES10</h1>
