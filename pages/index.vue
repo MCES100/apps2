@@ -2,11 +2,11 @@
     <div></div>
     <center>
       <magic>
-    <h1 class="font-extrabold" style="padding-bottom: 2rem;">MCES10</h1>
-    <h1 class="font-extrabold" style="padding-bottom: 2rem;">Software</h1>
+    <h1 class="font-extrabold text-white" style="padding-bottom: 2rem;">MCES10</h1>
+    <h1 class="font-extrabold text-white" style="padding-bottom: 2rem;">Software</h1>
   </magic>
   
-  <div class="flex min-h-screen flex-col items-center justify-between p-24" style="color:white">
+  <div class="flex min-h-screen flex-col items-center justify-between p-24 text-white" >
    
 
 
@@ -16,6 +16,7 @@
         class="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
         target="_parent"
         rel="noopener noreferrer"
+        
       >
         <h2 class="mb-3 text-2xl font-semibold">
           RickyAI  
@@ -111,6 +112,7 @@ body {
   color: rgb(var(--foreground-rgb));
   background: rgb(0,0,0);
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 66%, rgba(0,85,244,1) 100%);
+  
 }
 
 h1 {
