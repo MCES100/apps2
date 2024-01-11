@@ -160,7 +160,11 @@ backdrop-filter: blur(20px);
     top: 60px;
     left: 0;
     width: 100%;
-    background-color: #000000;
+    background-color: rgba(255, 255, 255, 0.64);
+    border-radius: 16px;
+    box-shadow: 0 14px 50px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     z-index: 1;
   }
 
