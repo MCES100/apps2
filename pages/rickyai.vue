@@ -24,7 +24,7 @@
             <p>
                RickyAI will be generative AI put into products like Web Development Tutorials (W.D.T) that will help you while coding along with the knowledge on all courses within the app!
             </p>
-         <a class="gradient-button" @mouseover="toggleHover" @mouseout="toggleHover" href="https://aibetatestrunmces10soft.vercel.app" target="_parent">
+         <a class="gradient-button" @mouseover="toggleHover" @mouseout="toggleHover" href="https://aitestrunbetamces10soft.vercel.app" target="_parent">
                Try Now 
             </a> 
         </h2>
